@@ -1,0 +1,10 @@
+apiVersion: v1
+entries:
+  helm:
+  - created: 2018-02-22T16:29:02.6701328+08:00
+    digest: 59d95a7df10eb47e3f2a824f5455a4df00f13445cc4f9d34408980be76dd33e5
+    name: helm
+    urls:
+    - helm-1.0.0.tgz
+    version: 1.0.0
+generated: 2018-02-22T16:29:02.6691312+08:00
