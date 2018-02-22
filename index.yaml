@@ -1,16 +1,22 @@
 apiVersion: v1
 entries:
   helm-hello:
-  - created: 2018-02-22T16:43:04.887637+08:00
+  - created: 2018-02-22T17:33:22.1421428+08:00
+    digest: 3aff97a158404b8b304dfd7a8d130940a490d18ebd1c3b3fa229cf50d10082c4
+    name: helm-hello
+    urls:
+    - helm-hello-1.2.0.tgz
+    version: 1.2.0
+  - created: 2018-02-22T17:33:22.1381428+08:00
     digest: 5b32f3f1da9d234b1a20b45fb919583a2ed8c62d327e79448ea410dcc6d1e90e
     name: helm-hello
     urls:
     - helm-hello-1.1.0.tgz
     version: 1.1.0
-  - created: 2018-02-22T16:43:04.8856379+08:00
+  - created: 2018-02-22T17:33:22.1361443+08:00
     digest: c638d50f8b3b58c533d399c6522cf7b6765d14dd41e787fcd31d708180f3bea0
     name: helm-hello
     urls:
     - helm-hello-1.0.0.tgz
     version: 1.0.0
-generated: 2018-02-22T16:43:04.8846378+08:00
+generated: 2018-02-22T17:33:22.135143+08:00
