@@ -1,17 +1,17 @@
 {{- define "hello-world.release_labels" }}
-{{ if .Values.isDev }}
+{{- if .Values.isDev }}
 app: {{ printf "%s-%s" .Release.Name .Chart.Name | trunc 63 }}
-{{ else }}
+{{- else }}
 app: {{ .Chart.Name }}
-{{ end }}
+{{- end }}
 version: {{ .Chart.Version }}
 release: {{ .Release.Name }}
 {{- end }}
 
 {{- define "hello-world.full_name" -}}
-{{ if .Values.isDev }}
+{{- if .Values.isDev }}
 {{- printf "%s-%s" .Release.Name .Chart.Name | trunc 63 -}}
-{{ else }}
+{{- else }}
 {{- .Chart.Name -}}
-{{ end }}
+{{- end }}
 {{- end -}}
